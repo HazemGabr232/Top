@@ -1,6 +1,6 @@
 # Top
 
-top like monitor system
+top like monitoring system
 
 ![System Monitor](images/monitor.png)
 
