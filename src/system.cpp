@@ -36,11 +36,11 @@ std::string System::Kernel() { return LinuxParser::Kernel(); }
 
 std::string System::OperatingSystem() { return LinuxParser::OperatingSystem(); }
 
-int System::RunningProcesses() { LinuxParser::RunningProcesses(); }
+int System::RunningProcesses() {return LinuxParser::RunningProcesses(); }
 
 int System::TotalProcesses() { return LinuxParser::TotalProcesses(); }
 
-float System::MemoryUtilization() { LinuxParser::MemoryUtilization(); }
+float System::MemoryUtilization() { return LinuxParser::MemoryUtilization(); }
 
 // TODO: fix bug
-long int System::UpTime() { LinuxParser::UpTime(); }
+long int System::UpTime() {return LinuxParser::UpTime(); }
